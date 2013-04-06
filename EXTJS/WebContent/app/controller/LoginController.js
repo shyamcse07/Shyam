@@ -31,7 +31,9 @@ Ext.define("Verizon.controller.LoginController", {
 	onSubmitButtonClicked : function() {
 		this.application.mainView.add({
 			xtype : "homeview",
-			id : "homeview"
+			id : "homeview",
+			height : 600,
+			width : 800
 		});
 		this.application.mainView.getLayout().setActiveItem("homeview");
 

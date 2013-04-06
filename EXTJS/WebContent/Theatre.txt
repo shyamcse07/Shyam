@@ -1,0 +1,7 @@
+{
+	"theatresInChennai" : [
+		{"name":"Sathyam","location":"Royapettah","screens" : 6},
+		{"name":"Mayajaal","location":"ECR","screens" : 16},
+		{"name":"Devi","location":"Mount road","screens" : 4}
+	]
+}

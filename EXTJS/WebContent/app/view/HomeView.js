@@ -1,21 +1,21 @@
 Ext.define("Verizon.view.HomeView", {
-	extend : "Ext.container.Viewport",
+	extend : "Ext.panel.Panel",
 	xtype : "homeview",
 	layout : "border",
 	items : [ {
-		xtype : "container",
+		xtype : "northhomepanel",
 		height : 200,
-		html : "Welcome",
-		region : "north"
+		region : "north",
+		id : "northhomepanel"
 	}, {
-		xtype : "container",
-		html : "Center",
-		region : "center"
+		xtype : "centerhomepanel",
+		region : "center",
+		id : "centerhomepanel"
 	}, {
-		xtype : "container",		
-		html : "West",
-		width : 400,
-		region : "west"
+		xtype : "westhomepanel",
+		width : 300,
+		region : "west",
+		id : "westhomepanel"
 	}
 
 	]
